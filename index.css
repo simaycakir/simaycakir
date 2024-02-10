@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 800px;
+}
+.menu-container{
+    color: #000000;
+    background-color:white;
+    padding: 0px 20px 20px 50px;
+    display: flex;
+    flex-direction: row;
+   
+  
+   
+}
+
+.menu{
+    border: 1px solid #ffffff;
+    width: 1000px;
+    display: flex;
+   align-self: center;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding: 2% 2% 2% 2%; 
+
+
+}
+
+.info{
+    border: 1px solid #fff;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+align-self: center;
+position: fixed;
+right: 0;
+padding-top: 50px;
+padding-right: 4%;
+
+}
+
+.right{
+    color: #000000;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+}
+
+.header{
+    font-size: x-large;
+    position: fixed;
+    color: #000000;
+}
+
+.about-container{
+    color: #000000;
+        background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    width: 10000 px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.about-items{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.about-text{
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+   
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+.hi {
+font-size: xx-large;
+}
+
+
+
+.text {
+    font-size: large;
+   padding-right: 50px;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+.contact-menu{
+    display: flex;
+    padding-top: 1500px;
+    padding-left: 70px;
+    flex-direction: row;
+justify-content: space-between;
+width: 250px;
+
+}
+
